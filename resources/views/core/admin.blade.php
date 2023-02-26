@@ -9,6 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bpsnoYKsXWHTPjKy9QwrVK7s_wlOIqhvkg&usqp=CAU" type="image/x-icon">
+
 
     <title>Qodha | Admin</title>
 

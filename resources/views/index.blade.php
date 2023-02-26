@@ -202,6 +202,8 @@
 
 <div class="pb-5"></div>
 <div class="pb-5"></div>
+@if (count($produk) != 0)
+    
 <div class="container text-center mt-5 featured-product">
     <h2 class="text-center">Produk Unggulan Kami</h2>
     <div class="product-name text-center">
@@ -220,6 +222,7 @@
 
     <a href="https://wa.me/62895363159726" target="_blank" class="btn btn-buy mb-5 mt-3 px-5">Beli Sekarang</a>
 </div>
+@endif
 
 <div class="pt-5"></div>
 <div class="container">

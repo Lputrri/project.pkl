@@ -41,7 +41,7 @@
                         <td>{{ $produk->nama }}</td>
                         <td>{{ $produk->category->nama }}</td>
                         <td>{{ $produk->harga }}</td>
-                        <td>{{ $produk->gambar }}</td>
+                        <td class="text-center"><img src="{{ $produk->gambar }}" class="w-50" style="padding:10px;"></td>
                         <td>{{ Str::limit($produk->deskripsi, 10) }}</td>
                         <td>
                             <a class="btn btn-success" href="{{ route('edit',$produk->id) }}" role="button">Update</a>
@@ -229,7 +229,7 @@
                         <td>{{ $produk->nama }}</td>
                         <td>{{ $produk->category->nama }}</td>
                         <td>{{ $produk->harga }}</td>
-                        <td>{{ $produk->gambar }}</td>
+                        <td class="text-center"><img src="{{ $produk->gambar }}" class="w-50" style="padding:10px;"></td>
                         <td>{{ Str::limit($produk->deskripsi, 10) }}</td>
                         <td>
                             <a class="btn btn-success" href="{{ route('edit',$produk->id) }}" role="button">Update</a>
